@@ -3,13 +3,13 @@ Projects in python that use SQL and MongoDB.
 
 # Project 2
 **General Overview:**
-● The program uses the functionality of mongoDB in python (through pymongo) to build a system for creating
+[●] The program uses the functionality of mongoDB in python (through pymongo) to build a system for creating
 document stores and then operating on them.
-● The program consists of two main parts : Phase1 - Reading data files and creating collections in the database and
+[●] The program consists of two main parts : Phase1 - Reading data files and creating collections in the database and
 Phase 2 - Performing search and update actions on the database built in Phase 1
-● The system’s initial page contains a login screen where users can choose to provide a userID. If they do : a brief user
+[●] The system’s initial page contains a login screen where users can choose to provide a userID. If they do : a brief user
 report is displayed. Regardless of whether a user ID was provided, users can then perform certain actions and tasks.
-● After performing an action, the user is brought back to the main menu and has the opportunity to go back to the
+[●] After performing an action, the user is brought back to the main menu and has the opportunity to go back to the
 screen where they can provide a new user ID or exit the program all together.
 
 **User Guide:**
@@ -19,11 +19,12 @@ screen where they can provide a new user ID or exit the program all together.
 2. How do I build the database?
 (i) Run the program “Phase1.py”. Have the files Posts.json, Votes.json, Tags.json in the same directory as Phase1.py.
 
+Next, run "Phase2.py"
 3. How do I view a user report?
 (i)When asked if you wish to provide a user Id, type “y”. A report will be displayed for the user Id entered.
 
 4. How do I post a new question?
-(i) When prompted to choose a task type “1”
+(i) When prompted to choose a task, type “1”
 
 5. How do I search for questions by providing keywords?
 (i)When prompted to choose a task, type “2”
