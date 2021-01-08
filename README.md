@@ -1,7 +1,9 @@
 # Databases-in-Python
-Projects in python that use SQL and MongoDB.
+Projects in python that use SQLite and MongoDB.
 
-# Project 2
+# Project 1 - SQLite in python
+
+# Project 2 - MongoDB in python
 **General Overview:**
 * The program uses the functionality of mongoDB in python (through pymongo) to build a system for creating document stores and then operating on them.
 * The program consists of two main parts : Phase1 - Reading data files and creating collections in the database and Phase 2 - Performing search and update actions on the database built in Phase 1
