@@ -9,7 +9,7 @@ Projects in python that use SQLite and MongoDB.
 * The program consists of two main parts : Phase1 - Reading data files and creating collections in the database and Phase 2 - Performing search and update actions on the database built in Phase 1
 * The system’s initial page contains a login screen where users can choose to provide a userID. If they do : a brief user report is displayed. Regardless of whether a user ID was provided, users can then perform certain actions and tasks.
 * After performing an action, the user is brought back to the main menu and has the opportunity to go back to the screen where they can provide a new user ID or exit the program all together.
-* The json files that contain the mongoDB collections are too big to upload to github. The typical format for a collection is -:
+* The json files that contain the mongoDB collections are too big to upload to github. The typical format for a collection is -:\
       {\
         "Id": "1",\
         "PostTypeId": "1",\
@@ -28,7 +28,7 @@ Projects in python that use SQLite and MongoDB.
         "CommentCount": 2,\
         "FavoriteCount": 11,\
         "ContentLicense": "CC BY-SA 3.0"\
-      }\
+      }
 
 **User Guide:**
 1. How do I connect to the mongoDB server?
