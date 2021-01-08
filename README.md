@@ -9,6 +9,26 @@ Projects in python that use SQLite and MongoDB.
 * The program consists of two main parts : Phase1 - Reading data files and creating collections in the database and Phase 2 - Performing search and update actions on the database built in Phase 1
 * The system’s initial page contains a login screen where users can choose to provide a userID. If they do : a brief user report is displayed. Regardless of whether a user ID was provided, users can then perform certain actions and tasks.
 * After performing an action, the user is brought back to the main menu and has the opportunity to go back to the screen where they can provide a new user ID or exit the program all together.
+* The json files that contain the mongoDB collections are too big to upload to github. The typical format for a collection is -:
+      {\
+        "Id": "1",\
+        "PostTypeId": "1",\
+        "AcceptedAnswerId": "23",\
+        "CreationDate": "2010-08-10T18:54:58.893",\
+        "Score": 30,\
+        "ViewCount": 22710,\
+        "Body": "<p>I am upgrading the internal SATA hard drive on my laptop from a 40G drive to a 160G            drive. ",\
+        "OwnerUserId": "4",\
+        "LastEditorUserId": "688",\
+        "LastEditDate": "2011-07-24T19:42:06.517",\
+        "LastActivityDate": "2016-08-16T10:36:44.840",\
+        "Title": "How can I use DD to migrate data from an old drive to a new drive?",\
+        "Tags": "<linux><freebsd><partition><storage><cloning>",\
+        "AnswerCount": 7,\
+        "CommentCount": 2,\
+        "FavoriteCount": 11,\
+        "ContentLicense": "CC BY-SA 3.0"\
+      }\
 
 **User Guide:**
 1. How do I connect to the mongoDB server?
