@@ -1,4 +1,4 @@
-
+# This project is made by github profiles @ananya28 @dhavalbhatia @marzookh
 **General Overview:**
 * The program uses the functionality of mongoDB in python (through pymongo) to build a system for creating document stores and then operating on them.
 * The program consists of two main parts : Phase1 - Reading data files and creating collections in the database and Phase 2 - Performing search and update actions on the database built in Phase 1
