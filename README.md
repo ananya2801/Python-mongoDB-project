@@ -32,7 +32,7 @@
 2. How do I build the database?
 (i) Run the program “Phase1.py”. Have the files Posts.json, Votes.json, Tags.json in the same directory as Phase1.py.
 
-Next, run "Phase2.py"
+Next,  run "Phase2.py"
 
 3. How do I view a user report?
 (i)When asked if you wish to provide a user Id, type “y”. A report will be displayed for the user Id entered.
